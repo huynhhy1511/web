@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Video Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <div class="avatar">
+                    <img id="avatar-img" src="./imggg/9.jpg" alt="Avatar">
+                </div>
+                <h1 id="video-title">Nơi này có anh</h1>
+                <div class="icon">
+                    <img src="./imggg/16.png" alt="Favorite Icon">
+                </div>
+                <div class="icon">
+                    <img src="./imggg/17.png" alt="More Icon">
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="icon" id="closeIcon">
+                    <img src="./imggg/18.png" alt="Close Icon">
+                </div>
+            </div>
+        </div>
+        <div class="vid">
+            <div class="video-section" id="video-section">
+                <video id="main-video" controls>
+                    <source src="./video/video1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="video-list">
+                <ul>
+                    <h2>&ensp;Danh sách phát</h2>
+                    <li onclick="changeVideo('./video/video1.mp4', './imggg/1.jpg', 'Nơi này có anh', './imggg/9.jpg')">
+                        <img src="./imggg/1.jpg" alt="Video 1 Thumbnail">
+                        <span>Nơi này có anh</span>
+                    </li>
+                    <li onclick="changeVideo('./video/video2.mp4', './imggg/2.jpg', 'LOU HOÀNG - NGÀY ĐẸP TRỜI ĐỂ NÓI CHIA TAY', './imggg/10.jpg')">
+                        <img src="./imggg/2.jpg" alt="Video 2 Thumbnail">
+                        <span>LOU HOÀNG - NGÀY ĐẸP TRỜI ĐỂ NÓI CHIA TAY</span>
+                    </li>
+                    <li onclick="changeVideo('./video/video3.mp4', './imggg/3.jpg', 'NGÀY ĐẦU SAU CHIA TAY', './imggg/11.jpg')">
+                        <img src="./imggg/3.jpg" alt="Video 3 Thumbnail">
+                        <span>NGÀY ĐẦU SAU CHIA TAY</span>
+                    </li>
+                    <li onclick="changeVideo('./video/video4.mp4', './imggg/4.jpg', 'KARIK - NHẬT KÝ VÀO ĐỜI', './imggg/12.jpg')">
+                        <img src="./imggg/4.jpg" alt="Video 4 Thumbnail">
+                        <span>KARIK - NHẬT KÝ VÀO ĐỜI</span>
+                    </li>
+                    <li onclick="changeVideo('./video/video5.mp4', './imggg/5.jpg', 'Nước Mắt Em Lau Bằng Tình Yêu Mới', './imggg/13.jpg')">
+                        <img src="./imgg/5.jpg" alt="Video 5 Thumbnail">
+                        <span>Nước Mắt Em Lau Bằng Tình Yêu Mới</span>
+                    </li>
+                    <li onclick="changeVideo('./video/video6.mp4', './imggg/6.jpg', 'Đen - Nấu ăn cho em', './imggg/14.jpg')">
+                        <img src="./imggg/6.jpg" alt="Video 6 Thumbnail">
+                        <span>Đen - Nấu ăn cho em</span>
+                    </li>
+                    <li onclick="changeVideo('./video/video7.mp4', './imggg/7.jpg', 'SƠN TÙNG M-TP | ĐỪNG LÀM TRÁI TIM ANH ĐAU', './imggg/15.jpg')">
+                        <img src="./imggg/7.jpg" alt="Video 7 Thumbnail">
+                        <span>SƠN TÙNG M-TP | ĐỪNG LÀM TRÁI TIM ANH ĐAU</span>
+                    </li>
+                    <li onclick="changeVideo('./video/video8.mp4', './imggg/8.jpg', 'MẶT MỘC', './imggg/16.jpg')">
+                        <img src="./imggg/8.jpg" alt="Video 8 Thumbnail">
+                        <span>MẶT MỘC</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cover"></div>
+    <script src="/javascript/script.js"></script>
+</body>
+</html

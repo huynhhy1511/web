@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="/styles/stylesss.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>Thư Viện</h1>
+            <div class="playlist">
+               <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist </h4>
+               <h4 ><span></span><i class="bi bi-music-note-beamed"></i> Top 100 bài hát hay nhất </h4>
+               <h4><span></span><i class="bi bi-music-note-beamed"></i> Hip-hop Việt Nam nổi bật </h4>
+            </div>
+            <div class="menu_song">
+                    <li class="songItem">
+                        <span>01</span>
+                        <img src="img/1" alt="Alan">
+                        <h5>
+                        Nơi này có Anh
+                           
+                        </h5><i style="margin-left: 68px;" class="bi playListPlay bi-play-circle-fill" id="1"></i><i style="margin-left: 10px;" class="bi bi-heart" id="heart-icon"></i>
+                        <div id="message"class="slide-from-right"></div> 
+                        
+                    </li>
+               
+                    
+                    <li class="songItem">
+                        <span>02</span>
+                        <img src="img/anh2.jpg" alt="Alan">
+                        <h5>
+                            Người lạ ơi
+                            
+                           
+                        </h5> <i style="margin-left: 90px;" class="bi playListPlay bi-play-circle-fill "  id="2"></i><i style="margin-left: 10px;" class="bi bi-heart" id="heart-icon2"></i>
+                        <div id="message2"class="slide-from-right2"></div>
+                    </li><li class="songItem">
+                        <span>03</span>
+                        <img src="img/nguoilaoi.webp" alt="Alan">
+                        <h5>
+                            Người lạ ơi
+                            <div class="subtitle">Karik-Orange</div>
+                            
+                        </h5><i style="margin-left: 17px;" class="bi playListPlay bi-play-circle-fill" id="3"></i><i style="margin-left: 10px;" class="bi bi-heart" id="heart-icon1"></i>
+                        <div id="message1"class="slide-from-right1"></div>
+                        
+                    </li><li class="songItem">
+                        <span>04</span>
+                        <img src="img/nguoilaoi.webp" alt="Alan">
+                        <h5>
+                            Người lạ ơi
+                            <div class="subtitle">Karik-Orange</div>
+                            
+                        </h5><i style="margin-left: 80px;" class="bi playListPlay bi-play-circle-fill" id="4"></i><i style="margin-left: 10px;" class="bi bi-heart" id="heart-icon3"></i>
+                        <div id="message3"class="slide-from-right3"></div>
+                    </li><li class="songItem">
+                        <span>05</span>
+                        <img src="img/nguoilaoi.webp" alt="Alan">
+                        <h5>
+                            Người lạ ơi
+                            <div class="subtitle">Karik-Orange</div>
+                            
+                        </h5><i style="margin-left: 90px;" class="bi playListPlay bi-play-circle-fill" id="5"></i><i style="margin-left: 10px;" class="bi bi-heart" id="heart-icon4"></i>
+                        <div id="message4"class="slide-from-right4"></div>
+                    </li><li class="songItem">
+                        <span>06</span>
+                        <img src="img/nguoilaoi.webp" alt="Alan">
+                        <h5>
+                            Người lạ ơi
+                            <div class="subtitle">Karik-Orange</div>
+                            
+                        </h5><i style="margin-left: 60px;" class="bi playListPlay bi-play-circle-fill" id="6"></i><i style="margin-left: 10px;" class="bi bi-heart" id="heart-icon5"></i>
+                        <div id="message5"class="slide-from-right5"></div>
+                    </li>
+                    <li class="songItem">
+                        <span>07</span>
+                        <img src="img/nguoilaoi.webp" alt="Alan">
+                        <h5>
+                            Người lạ ơi
+                            <div class="subtitle">Karik-Orange</div>
+                           
+                        </h5> <i style="margin-left: 103px;" class="bi playListPlay bi-play-circle-fill" id="7"></i><i style="margin-left: 10px;" class="bi bi-heart" id="heart-icon6"></i>
+                        <div id="message6"class="slide-from-right6"></div>
+                    </li>
+               
+            </div>
+        </div>
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>Cá Nhân</li>
+                    
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search-heart-fill"></i>
+                    <input type="text" placeholder="Search Music...">
+                </div>
+                <div class="user">
+                    <img src="img/music-logo.png!f305cw" alt="" title="MUSIC so hot">
+                </div>
+                <div class="timkim">
+                    <ul class="social-list">
+                    <div> <a href="login.html">Login<i class="bi bi-door-open"></i></a> </div>
+                        
+            
+                      </ul>
+                </div>
+            </nav>
+            <div class="content"><h1>Sơn Tùng</h1>
+            <p>Để chạm đến ước mơ, tôi phải là người trải nghiệm bản thân và tự bước đi trên con đường của mình <br>
+            Muốn ngồi ở vị trí không ai ngồi được thì phải chịu cảm giác không ai chịu được </p>
+
+            <div class="buttons">
+                <button>Love<i class="bi bi-heart"></i> </button>
+                <button>Upload <i class="bi bi-cloud-arrow-up"></i></button>
+                <a href="mv.html" class="link"><i class="bi bi-youtube" ></i>MV</a>
+                    <div id="overlay">
+                       <iframe id="iframe" src=""></iframe>
+                    </div> 
+                
+
+
+                <button>Đã tải <i class="bi bi-cloud-arrow-down-fill"></i></button>
+            </div>
+            </div>
+
+            <div class="popular_song">
+                 <div class="h4">
+                    <h4>Thịnh hành</h4>
+                    <div class="btn">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                    </div>
+                 </div>
+                 <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/anh1.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                        </div>
+                        <h5>
+                            Nơi này có Anh <br>
+                            <div class="subtitle">Sơn Tùng MTP</div>
+                           
+                        </h5>
+                    </li>
+                 </div>
+            </div>
+            
+            <div class="popular_artists">
+                <div class="h4">
+                   <h4>Nghệ Sĩ nổi tiếng</h4>
+                   <div class="btn_5">
+                       <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                       <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                   </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="img/anhanh1.jpg" alt="sontung" title="Sontung">
+                    </li>
+                    <li>
+                        <img src="img/anhanh2.jpg" alt="jack" title="jack">
+                    </li>
+                    <li>
+                        <img src="img/anhanh3.jpg" alt="Karik" title="karik">
+                    </li>
+                    <li>
+                        <img src="img/anhanh4.jpg" alt="Sobin" title="Hoangson ">
+                    </li>
+                    <li>
+                        <img src="img/anhanh5.jpg" alt="" title="Erik">
+                    </li>
+                     
+                </div>
+            </div>
+        </div>
+
+        <div class="master_play">
+            <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            </div>
+           <img src="img/1.jpg" alt="sontung" id="poster_master_play">
+           <h5 id="title">Nơi này có Anh <br>
+            <div class="subtitle">Sơn Tùng MTP</div>
+         
+           </h5>
+           <div class="icon">
+            <i class="bi bi-skip-start-fill" id="back"></i>
+            <i class="bi bi-play-fill" id="masterPlay"></i>
+            <i class="bi bi-skip-end-fill" id="next"></i>
+           </div>
+           <span id="currentStart">0:00</span>
+           <div class="bar">
+            <input type="range" id="seek" min="0" value="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+           </div>
+           <span id="currentEnd">0:00</span>
+            
+        <div class="vol">
+            <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+            <input type="range" id="vol" min="0" value="0" max="100">
+            <div class="vol_bar" ></div>
+            <div class="dot" id="vol_dot"></div>
+        </div>
+           
+       
+        
+    </header>
+    <script src="/javascript/app.js"></script>
+</body>
+</html>
